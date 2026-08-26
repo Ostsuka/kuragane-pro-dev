@@ -12,7 +12,7 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { icon: GitBranch, href: "https://github.com/murakami-kyo", label: "GitHub" },
+  { icon: GitBranch, href: "https://github.com/Ostsuka/kuragane-pro-dev", label: "GitHub" },
   { icon: X,         href: "#",                               label: "X (Twitter)" },
   { icon: Link,      href: "#",                               label: "LinkedIn" },
   { icon: Mail,      href: "mailto:gold77chi11@gmail.com",    label: "Email" },
@@ -86,7 +86,7 @@ export default function Footer() {
                 <Code2 className="w-5 h-5 text-white" />
               </div>
               <div className="flex flex-col leading-none">
-                <span className="font-black text-lg text-sky-400">村上 渉</span>
+                <span className="font-black text-lg text-sky-400">倉金 睦</span>
                 <span className="text-[10px] text-gray-500 tracking-widest mt-0.5">Full-Stack Engineer</span>
               </div>
             </div>
@@ -153,7 +153,7 @@ export default function Footer() {
         {/* ボトムライン */}
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-gray-500">
-            © {new Date().getFullYear()} 村上 渉. All rights reserved.
+            © {new Date().getFullYear()} 倉金 睦. All rights reserved.
           </p>
           <div className="flex gap-5 text-gitxs">
             <a href="#" className="hover:text-sky-400 transition-colors duration-200">プライバシーポリシー</a>

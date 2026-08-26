@@ -5,25 +5,25 @@ import { Mail } from "lucide-react";
 
 const timeline = [
   {
-    year: "2019",
+    year: "2015",
     title: "プログラミング学習開始",
     desc: "独学でHTML/CSS/JavaScriptを習得。Web開発の面白さに目覚め、フルスタックへの道を歩み始める。",
     color: "bg-sky-500",
   },
   {
-    year: "2020",
+    year: "2017",
     title: "React / Node.js を本格習得",
     desc: "React・Node.jsのエコシステムを深く学習。個人プロジェクトでフロントからバックエンドまで一気通貫で開発するスタイルを確立。",
     color: "bg-indigo-500",
   },
   {
-    year: "2021",
+    year: "2020",
     title: "フリーランスとして活動開始",
     desc: "副業・フリーランス案件を受注開始。LP制作・Webアプリ開発など小規模案件から実績を積み上げる。",
     color: "bg-purple-500",
   },
   {
-    year: "2022",
+    year: "2021",
     title: "クラウド・インフラ領域へ拡大",
     desc: "AWSを活用したインフラ設計・CI/CDパイプライン構築を習得。真のフルスタックエンジニアへシフト。",
     color: "bg-emerald-500",
@@ -37,7 +37,7 @@ const timeline = [
   {
     year: "2024〜",
     title: "現在：スタートアップ〜中規模企業を幅広く支援",
-    desc: "50社以上との取引実績。アイデア段階のスタートアップから既存システム改修まで、あらゆるフェーズのプロダクト開発を支援中。",
+    desc: "30社以上との取引実績。アイデア段階のスタートアップから既存システム改修まで、あらゆるフェーズのプロダクト開発を支援中。",
     color: "bg-gradient-to-r from-sky-500 to-indigo-500",
   },
 ];
@@ -144,12 +144,12 @@ export default function About() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-black text-gray-800">村上 渉</h3>
+                  <h3 className="text-xl font-black text-gray-800">倉金 睦</h3>
                   <p className="text-sky-600 font-semibold text-sm mt-0.5">
                     フルスタックエンジニア / Full-Stack Developer
                   </p>
                   <div className="flex flex-wrap gap-2 mt-3">
-                    {["福島県郡山市在住", "フリーランス", "即日対応可"].map((badge) => (
+                    {["群馬県桐生市在住", "フリーランス", "即日対応可"].map((badge) => (
                       <span
                         key={badge}
                         className="px-2.5 py-1 bg-white rounded-full text-xs font-medium text-gray-600 border border-gray-200 shadow-sm hover:border-sky-300 hover:text-sky-600 transition-colors duration-200"
@@ -162,9 +162,9 @@ export default function About() {
               </div>
 
               <p className="text-gray-700 text-sm leading-relaxed mt-6">
-                1997年6月16日生まれ、福島県郡山市在住。独学でプログラミングを習得後、フルスタックエンジニアとして独立。
+                1997年生まれ、群馬県桐生市在住。独学でプログラミングを習得後、フルスタックエンジニアとして独立。
                 React・Next.js・Node.jsを中心としたモダンな開発が得意領域です。
-                「技術でビジネスを前進させる」をモットーに、スタートアップから中規模企業まで50社以上のプロダクト開発を支援してきました。
+                「技術でビジネスを前進させる」をモットーに、スタートアップから中規模企業まで30社以上のプロダクト開発を支援してきました。
               </p>
 
               <div className="mt-4 text-sm text-gray-500 flex items-center gap-2">

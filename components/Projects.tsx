@@ -44,7 +44,7 @@ const projects: Project[] = [
     tag: "Web開発",
     image: "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=800&q=80",
     imageAlt: "ショッピングとアパレルの風景",
-    githubUrl: "https://github.com/murakami-kyo/ec-renewal",
+    githubUrl: "https://github.com/Ostsuka/ec-renewal",
     githubStats: { stars: 42, forks: 8, watchers: 15, language: "TypeScript" },
     githubDescription: "Next.js + Stripe を使った EC サイトフルリニューアルのリポジトリ。SSG/ISR による高速表示とモダン決済フローを実装。",
     githubFiles: [
@@ -73,7 +73,7 @@ const projects: Project[] = [
     tag: "SaaS",
     image: "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800&q=80",
     imageAlt: "美容サロンの内装",
-    githubUrl: "https://github.com/murakami-kyo/salon-booking-saas",
+    githubUrl: "https://github.com/Ostsuka/salon-booking-saas",
     githubStats: { stars: 67, forks: 14, watchers: 23, language: "TypeScript" },
     githubDescription: "美容サロン向けマルチテナント予約 SaaS。WebSocket リアルタイム同期・Stripe 決済・自動メール通知を実装。",
     githubFiles: [
@@ -101,7 +101,7 @@ const projects: Project[] = [
     tag: "IoT / データ",
     image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80",
     imageAlt: "工場・製造現場の風景",
-    githubUrl: "https://github.com/murakami-kyo/iot-dashboard",
+    githubUrl: "https://github.com/Ostsuka/iot-dashboard",
     githubStats: { stars: 31, forks: 6, watchers: 11, language: "TypeScript" },
     githubDescription: "製造業向け IoT リアルタイム分析ダッシュボード。AWS IoT Core + Lambda + D3.js で 500 センサーのデータを可視化。",
     githubFiles: [
@@ -129,7 +129,7 @@ const projects: Project[] = [
     tag: "ヘルスケア",
     image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
     imageAlt: "病院・医療の風景",
-    githubUrl: "https://github.com/murakami-kyo/clinic-management",
+    githubUrl: "https://github.com/Ostsuka/clinic-management",
     githubStats: { stars: 18, forks: 4, watchers: 9, language: "TypeScript" },
     githubDescription: "クリニックチェーン向け統合業務管理システム。電子カルテ・予約・保険請求を一元化。セキュリティ設計を重視。",
     githubFiles: [
@@ -157,7 +157,7 @@ const projects: Project[] = [
     tag: "プラットフォーム",
     image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
     imageAlt: "不動産・住宅の風景",
-    githubUrl: "https://github.com/murakami-kyo/realestate-platform",
+    githubUrl: "https://github.com/Ostsuka/realestate-platform",
     githubStats: { stars: 55, forks: 12, watchers: 20, language: "TypeScript" },
     githubDescription: "AI マッチング推薦 × Mapbox 地図検索の不動産プラットフォーム MVP。OpenAI API で物件レコメンドを実装。",
     githubFiles: [
@@ -185,7 +185,7 @@ const projects: Project[] = [
     tag: "コーポレート",
     image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
     imageAlt: "企業オフィス・グローバルビジネスの風景",
-    githubUrl: "https://github.com/murakami-kyo/corporate-site-i18n",
+    githubUrl: "https://github.com/Ostsuka/corporate-site-i18n",
     githubStats: { stars: 29, forks: 5, watchers: 13, language: "TypeScript" },
     githubDescription: "Next.js App Router + Contentful CMS による日英中 3 言語コーポレートサイト。Core Web Vitals 全項目 Green 達成。",
     githubFiles: [
@@ -245,7 +245,7 @@ function GitHubModal({ project, onClose }: { project: Project; onClose: () => vo
           <div className="w-3.5 h-3.5 rounded-full bg-green-500" />
           <div className="flex-1 mx-3">
             <div className="bg-gray-700 rounded-md px-3 py-1 text-[11px] text-gray-300 font-mono truncate">
-              github.com/murakami-kyo/{project.title.replace(/\s+/g, "-").toLowerCase()}
+              github.com/Ostsuka/{project.title.replace(/\s+/g, "-").toLowerCase()}
             </div>
           </div>
           <a
@@ -267,7 +267,7 @@ function GitHubModal({ project, onClose }: { project: Project; onClose: () => vo
             </div>
             <div>
               <div className="flex items-center gap-2 flex-wrap">
-                <span className="text-gray-400 text-sm font-mono">murakami-kyo</span>
+                <span className="text-gray-400 text-sm font-mono">Ostsuka</span>
                 <span className="text-gray-600">/</span>
                 <span className="text-sky-400 font-bold font-mono text-sm">{project.title.replace(/\s+/g, "-").toLowerCase()}</span>
                 <span className="px-2 py-0.5 text-[10px] font-semibold rounded-full border border-gray-600 text-gray-400">
@@ -342,7 +342,7 @@ function GitHubModal({ project, onClose }: { project: Project; onClose: () => vo
 
         {/* フッター */}
         <div className="px-6 py-4 bg-gray-800 border-t border-gray-700 flex items-center justify-between">
-          <span className="text-xs text-gray-500 font-mono">© 2024 murakami-kyo</span>
+          <span className="text-xs text-gray-500 font-mono">© 2024 Ostsuka</span>
           <a
             href={project.githubUrl}
             target="_blank"
