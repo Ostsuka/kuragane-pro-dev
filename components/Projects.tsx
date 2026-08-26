@@ -563,7 +563,7 @@ export default function Projects() {
               onClick={() => setModalProject(projects[0])}
               className="px-8 py-4 bg-white text-gray-700 font-bold rounded-xl border border-gray-200 hover:border-gray-900 hover:bg-gray-900 hover:text-white transition-all duration-300 shadow-sm inline-flex items-center gap-2 hover:-translate-y-1 hover:shadow-xl"
             >
-              <GithubIcon className="w-4 h-4" />
+              {/* <GithubIcon className="w-4 h-4" /> */}
               GitHubで全実績を見る
             </button>
           </div>
