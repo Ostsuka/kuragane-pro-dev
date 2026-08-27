@@ -149,7 +149,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-bold">無料相談・お見積り</div>
-                  <div className="text-sm text-sky-100">gold77chi11@gmail.com</div>
+                  <div className="text-sm text-sky-100">mutsuminkk@gmail.com</div>
                 </div>
               </div>
 
