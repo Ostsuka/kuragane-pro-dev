@@ -170,10 +170,10 @@ export default function About() {
               <div className="mt-4 text-sm text-gray-500 flex items-center gap-2">
                 <Mail className="w-4 h-4 text-sky-500 flex-shrink-0" />
                 <a
-                  href="mailto:gold77chi11@gmail.com"
+                  href="mailto:mutsuminkk@gmail.com"
                   className="hover:text-sky-600 transition-colors break-all"
                 >
-                  gold77chi11@gmail.com
+                  mutsuminkk@gmail.com
                 </a>
               </div>
 
