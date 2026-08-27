@@ -15,7 +15,7 @@ const socialLinks = [
   { icon: GitBranch, href: "https://github.com/Ostsuka/kuragane-pro-dev", label: "GitHub" },
   { icon: X,         href: "#",                               label: "X (Twitter)" },
   { icon: Link,      href: "#",                               label: "LinkedIn" },
-  { icon: Mail,      href: "mailto:gold77chi11@gmail.com",    label: "Email" },
+  { icon: Mail,      href: "mailto:mutsuminkk@gmail.com",    label: "Email" },
 ];
 
 const techLinks = ["React", "Next.js", "TypeScript", "Node.js", "MongoDB", "AWS"];
