@@ -68,7 +68,7 @@ export default function Header() {
             </div>
             <div className="flex flex-col leading-none">
               <span className="text-gradient font-black text-lg tracking-tight">
-                村上 渉
+                倉金 睦
               </span>
               <span
                 className={`text-[10px] font-medium tracking-widest transition-colors duration-300 ${
