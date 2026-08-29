@@ -5,39 +5,39 @@ import { Mail } from "lucide-react";
 
 const timeline = [
   {
-    year: "2019",
-    title: "プログラミング学習開始",
-    desc: "独学でHTML/CSS/JavaScriptを習得。Web開発の面白さに目覚め、フルスタックへの道を歩み始める。",
+    year: "2019年12月～2021年9月",
+    title: "企業向けホームページ制作・Webサイト開発プロジェクト",
+    desc: "個人事業・業務委託として、企業・事業者からの依頼に応じたホームページ制作およびWebサイト開発に従事。",
     color: "bg-sky-500",
   },
+  // {
+  //   year: "2020",
+  //   title: "React / Node.js を本格習得",
+  //   desc: "React・Node.jsのエコシステムを深く学習。個人プロジェクトでフロントからバックエンドまで一気通貫で開発するスタイルを確立。",
+  //   color: "bg-indigo-500",
+  // },
   {
-    year: "2020",
-    title: "React / Node.js を本格習得",
-    desc: "React・Node.jsのエコシステムを深く学習。個人プロジェクトでフロントからバックエンドまで一気通貫で開発するスタイルを確立。",
-    color: "bg-indigo-500",
-  },
-  {
-    year: "2021",
-    title: "フリーランスとして活動開始",
-    desc: "副業・フリーランス案件を受注開始。LP制作・Webアプリ開発など小規模案件から実績を積み上げる。",
+    year: "2021年10月～2023年5月",
+    title: "クラウド対応Webシステム開発",
+    desc: "Webアプリケーションの新規開発にフルスタックエンジニアとして参画。",
     color: "bg-purple-500",
   },
   {
-    year: "2022",
-    title: "クラウド・インフラ領域へ拡大",
-    desc: "AWSを活用したインフラ設計・CI/CDパイプライン構築を習得。真のフルスタックエンジニアへシフト。",
+    year: "2023年6月～2024年3月",
+    title: "EC一元管理システム 商品・在庫同期機能開発",
+    desc: "複数ECモールの商品・在庫情報を管理するSaaS開発。",
     color: "bg-emerald-500",
   },
   {
-    year: "2023",
-    title: "AI / LLM 統合開発に注力",
-    desc: "OpenAI API・Langchainを活用したAI機能の組み込み開発を多数手がける。プロダクトへのAI実装が主力領域に。",
+    year: "2024年4月～2025年2月",
+    title: "製造・流通業界向け写真・点検帳票管理システム開発",
+    desc: "業務委託開発としてシステム開発・保守に従事。",
     color: "bg-amber-500",
   },
   {
-    year: "2024〜",
-    title: "現在：スタートアップ〜中規模企業を幅広く支援",
-    desc: "50社以上との取引実績。アイデア段階のスタートアップから既存システム改修まで、あらゆるフェーズのプロダクト開発を支援中。",
+    year: "2025年3月～2026年1月",
+    title: "老舗流通企業向け商品管理システム AWS移行",
+    desc: "Javaベースの既存システムをAWSへ移行するプロジェクト。",
     color: "bg-gradient-to-r from-sky-500 to-indigo-500",
   },
 ];
@@ -144,12 +144,12 @@ export default function About() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-black text-gray-800">村上 渉</h3>
+                  <h3 className="text-xl font-black text-gray-800">倉金 睦</h3>
                   <p className="text-sky-600 font-semibold text-sm mt-0.5">
                     フルスタックエンジニア / Full-Stack Developer
                   </p>
                   <div className="flex flex-wrap gap-2 mt-3">
-                    {["福島県郡山市在住", "フリーランス", "即日対応可"].map((badge) => (
+                    {["群馬県桐生市在住", "フリーランス", "即日対応可"].map((badge) => (
                       <span
                         key={badge}
                         className="px-2.5 py-1 bg-white rounded-full text-xs font-medium text-gray-600 border border-gray-200 shadow-sm hover:border-sky-300 hover:text-sky-600 transition-colors duration-200"
@@ -162,9 +162,9 @@ export default function About() {
               </div>
 
               <p className="text-gray-700 text-sm leading-relaxed mt-6">
-                1997年6月16日生まれ、福島県郡山市在住。独学でプログラミングを習得後、フルスタックエンジニアとして独立。
-                React・Next.js・Node.jsを中心としたモダンな開発が得意領域です。
-                「技術でビジネスを前進させる」をモットーに、スタートアップから中規模企業まで50社以上のプロダクト開発を支援してきました。
+              群馬県桐生市在住。React・Next.js・Node.jsを中心としたモダンな技術スタックを得意としており、フロントエンドからバックエンド、API開発・データベースまで一貫して対応しています。
+ユーザーにとって使いやすいUI/UXと、将来的な保守・拡張を考慮した設計を大切にし、要件や目的に応じた技術選定から実装まで柔軟に対応しています。
+アイデアを形にすることを大切にし、品質とスピードの両立を意識したWeb開発に取り組んでいます。
               </p>
 
               <div className="mt-4 text-sm text-gray-500 flex items-center gap-2">
@@ -180,7 +180,7 @@ export default function About() {
               <div className="grid grid-cols-3 gap-3 mt-6">
                 {[
                   { value: "5年+", label: "経験年数" },
-                  { value: "50+",  label: "支援企業" },
+                  { value: "20+",  label: "支援企業" },
                   { value: "98%",  label: "継続率" },
                 ].map((stat, i) => (
                   <div
