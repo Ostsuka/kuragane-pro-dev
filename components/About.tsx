@@ -5,78 +5,40 @@ import { Mail } from "lucide-react";
 
 const timeline = [
   {
-    year: "2019年12月〜2021年9月",
-    title: "企業向けホームページ制作・Webサイト開発",
-    role: "個人事業・業務委託",
-    bullets: [
-      "企業向けホームページの企画・設計",
-      "HTML/CSS/JavaScriptによるWebサイト制作・レスポンシブ対応",
-      "WebページのUI・レイアウト設計",
-      "お問い合わせフォーム等の機能実装",
-      "既存Webサイトの改修・更新",
-    ],
-    results: [
-      "顧客要件に応じたWebサイトを設計・開発し、納期内での公開を実現",
-      "ユーザビリティを考慮したレスポンシブWebサイトの制作に対応",
-      "既存Webサイトの改修・機能追加を通じて、運用性・利便性の向上に貢献",
-    ],
+    year: "2019",
+    title: "プログラミング学習開始",
+    desc: "独学でHTML/CSS/JavaScriptを習得。Web開発の面白さに目覚め、フルスタックへの道を歩み始める。",
     color: "bg-sky-500",
   },
   {
-    year: "2021年10月〜2024年3月",
-    title: "クラウド対応Webシステム開発",
-    role: "フルスタックエンジニア",
-    bullets: [
-      "React / TypeScriptによるフロントエンド開発",
-      "Node.jsによるAPI開発・REST API設計",
-      "データベース設計",
-      "AWS環境へのデプロイ",
-      "コードレビュー対応",
-    ],
-    results: [
-      "業務プロセス改善による生産性向上へ貢献",
-      "安定したWebサービス提供を実現",
-    ],
+    year: "2020",
+    title: "React / Node.js を本格習得",
+    desc: "React・Node.jsのエコシステムを深く学習。個人プロジェクトでフロントからバックエンドまで一気通貫で開発するスタイルを確立。",
     color: "bg-indigo-500",
   },
   {
-    year: "2021年10月〜2024年3月",
-    title: "EC一元管理システム 商品・在庫同期機能開発",
-    role: "複数ECモールのSaaS開発",
-    bullets: [
-      "Next.js管理画面開発",
-      "NestJSによるバックエンド開発",
-      "EC API連携",
-      "AWS（ECS / RDS / S3）環境対応",
-    ],
-    results: [],
+    year: "2021",
+    title: "フリーランスとして活動開始",
+    desc: "副業・フリーランス案件を受注開始。LP制作・Webアプリ開発など小規模案件から実績を積み上げる。",
     color: "bg-purple-500",
   },
   {
-    year: "2024年4月〜2026年1月",
-    title: "製造・流通業界向け写真・点検帳票管理システム開発",
-    role: "業務委託",
-    bullets: [
-      "PHP（Laravel）API開発",
-      "React画面改修",
-      "MySQL改善",
-      "テスト、保守運用",
-    ],
-    results: [],
+    year: "2022",
+    title: "クラウド・インフラ領域へ拡大",
+    desc: "AWSを活用したインフラ設計・CI/CDパイプライン構築を習得。真のフルスタックエンジニアへシフト。",
     color: "bg-emerald-500",
   },
   {
-    year: "2024年4月〜2026年1月",
-    title: "老舗流通企業向け商品管理システム AWS移行",
-    role: "Javaベース既存システムのAWS移行",
-    bullets: [
-      "Java（Spring Boot）改修・SQL調査",
-      "Docker環境構築",
-      "AWS ECS / RDS移行支援",
-      "CloudWatch監視対応",
-    ],
-    results: [],
+    year: "2023",
+    title: "AI / LLM 統合開発に注力",
+    desc: "OpenAI API・Langchainを活用したAI機能の組み込み開発を多数手がける。プロダクトへのAI実装が主力領域に。",
     color: "bg-amber-500",
+  },
+  {
+    year: "2024〜",
+    title: "現在：スタートアップ〜中規模企業を幅広く支援",
+    desc: "50社以上との取引実績。アイデア段階のスタートアップから既存システム改修まで、あらゆるフェーズのプロダクト開発を支援中。",
+    color: "bg-gradient-to-r from-sky-500 to-indigo-500",
   },
 ];
 
@@ -182,12 +144,12 @@ export default function About() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-xl font-black text-gray-800">倉金 睦</h3>
+                  <h3 className="text-xl font-black text-gray-800">村上 渉</h3>
                   <p className="text-sky-600 font-semibold text-sm mt-0.5">
                     フルスタックエンジニア / Full-Stack Developer
                   </p>
                   <div className="flex flex-wrap gap-2 mt-3">
-                    {["群馬県桐生市在住", "フリーランス", "即日対応可"].map((badge) => (
+                    {["福島県郡山市在住", "フリーランス", "即日対応可"].map((badge) => (
                       <span
                         key={badge}
                         className="px-2.5 py-1 bg-white rounded-full text-xs font-medium text-gray-600 border border-gray-200 shadow-sm hover:border-sky-300 hover:text-sky-600 transition-colors duration-200"
@@ -200,18 +162,18 @@ export default function About() {
               </div>
 
               <p className="text-gray-700 text-sm leading-relaxed mt-6">
-                1997年生まれ、群馬県桐生市在住。独学でプログラミングを習得後、フルスタックエンジニアとして独立。
+                1997年6月16日生まれ、福島県郡山市在住。独学でプログラミングを習得後、フルスタックエンジニアとして独立。
                 React・Next.js・Node.jsを中心としたモダンな開発が得意領域です。
-                「技術でビジネスを前進させる」をモットーに、スタートアップから中規模企業まで30社以上のプロダクト開発を支援してきました。
+                「技術でビジネスを前進させる」をモットーに、スタートアップから中規模企業まで50社以上のプロダクト開発を支援してきました。
               </p>
 
               <div className="mt-4 text-sm text-gray-500 flex items-center gap-2">
                 <Mail className="w-4 h-4 text-sky-500 flex-shrink-0" />
                 <a
-                  href="mailto:mutsuminkk@gmail.com"
+                  href="mailto:gold77chi11@gmail.com"
                   className="hover:text-sky-600 transition-colors break-all"
                 >
-                  mutsuminkk@gmail.com
+                  gold77chi11@gmail.com
                 </a>
               </div>
 
@@ -294,38 +256,13 @@ export default function About() {
                   </div>
 
                   <div className="bg-white rounded-xl border border-gray-100 p-4 shadow-sm card-hover">
-                    <div className="flex items-center gap-2 mb-1 flex-wrap">
+                    <div className="flex items-center gap-2 mb-1">
                       <span className="text-xs font-black text-sky-600 bg-sky-50 px-2 py-0.5 rounded-full">
                         {item.year}
                       </span>
                     </div>
-                    <h4 className="text-sm font-bold text-gray-800 mb-0.5">{item.title}</h4>
-                    {item.role && (
-                      <p className="text-xs text-indigo-500 font-medium mb-2">{item.role}</p>
-                    )}
-                    {item.bullets.length > 0 && (
-                      <ul className="mb-2 space-y-0.5">
-                        {item.bullets.map((b, bi) => (
-                          <li key={bi} className="text-xs text-gray-600 leading-relaxed flex gap-1.5">
-                            <span className="text-sky-400 mt-0.5 flex-shrink-0">▸</span>
-                            <span>{b}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                    {item.results.length > 0 && (
-                      <div className="mt-2 border-t border-gray-50 pt-2">
-                        <p className="text-xs font-semibold text-gray-500 mb-1">実績</p>
-                        <ul className="space-y-0.5">
-                          {item.results.map((r, ri) => (
-                            <li key={ri} className="text-xs text-gray-500 leading-relaxed flex gap-1.5">
-                              <span className="text-emerald-400 mt-0.5 flex-shrink-0">✓</span>
-                              <span>{r}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
+                    <h4 className="text-sm font-bold text-gray-800 mb-1">{item.title}</h4>
+                    <p className="text-xs text-gray-500 leading-relaxed">{item.desc}</p>
                   </div>
                 </div>
               ))}
