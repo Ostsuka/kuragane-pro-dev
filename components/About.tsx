@@ -5,7 +5,7 @@ import { Mail } from "lucide-react";
 
 const timeline = [
   {
-    year: "2015年12月～2021年9月",
+    year: "2019年12月～2021年9月",
     title: "企業向けホームページ制作・Webサイト開発プロジェクト",
     desc: "個人事業・業務委託として、企業・事業者からの依頼に応じたホームページ制作およびWebサイト開発に従事。",
     color: "bg-sky-500",
