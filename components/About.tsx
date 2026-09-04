@@ -79,20 +79,7 @@ const timeline = [
     results: [],
     color: "bg-amber-500",
   },
-   {
-    year: "2026年2月～現在",
-    title: "企業向けWebサイト・業務システム開発プロジェクト",
-    role:"企業・個人向けのWebサイト・Webシステム・業務システム開発を担当。",
-     bullets: [
-      "Java（Spring Boot）改修・SQL調査",
-      "Docker環境構築",
-      "AWS ECS / RDS移行支援",
-      "CloudWatch監視対応",
-    ],
-    results: [],
-    color: "bg-indigo-500"
 
-  },
 ];
 
 const values = [
