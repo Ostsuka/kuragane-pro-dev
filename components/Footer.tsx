@@ -12,7 +12,7 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  // { icon: GitBranch, href: "https://github.com/murakami-kyo", label: "GitHub" },
+  { icon: GitBranch, href: "https://github.com/Ostsuka/kuragane-pro-dev", label: "GitHub" },
   { icon: X,         href: "#",                               label: "X (Twitter)" },
   { icon: Link,      href: "#",                               label: "LinkedIn" },
   { icon: Mail,      href: "mailto:mutsuminkk@gmail.com",    label: "Email" },
@@ -86,7 +86,7 @@ export default function Footer() {
                 <Code2 className="w-5 h-5 text-white" />
               </div>
               <div className="flex flex-col leading-none">
-                <span className="font-black text-lg text-sky-400"倉金 睦</span>
+                <span className="font-black text-lg text-sky-400">倉金 睦</span>
                 <span className="text-[10px] text-gray-500 tracking-widest mt-0.5">Full-Stack Engineer</span>
               </div>
             </div>
