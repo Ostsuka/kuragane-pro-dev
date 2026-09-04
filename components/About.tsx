@@ -40,6 +40,12 @@ const timeline = [
     desc: "Javaベースの既存システムをAWSへ移行するプロジェクト。",
     color: "bg-gradient-to-r from-sky-500 to-indigo-500",
   },
+    {
+    year: "2026年2月～現在",
+    title: "企業向けWebサイト・業務システム開発プロジェクト",
+    desc: "企業・個人向けのWebサイト・Webシステム・業務システム開発を担当。",
+    color: "bg-indigo-500",
+  },
 ];
 
 const values = [
