@@ -5,7 +5,7 @@ import { Mail } from "lucide-react";
 
 const timeline = [
   {
-    year: "2019年12月～2021年9月",
+    year: "2015年12月～2021年9月",
     title: "企業向けホームページ制作・Webサイト開発プロジェクト",
     desc: "個人事業・業務委託として、企業・事業者からの依頼に応じたホームページ制作およびWebサイト開発に従事。",
     color: "bg-sky-500",
@@ -162,9 +162,9 @@ export default function About() {
               </div>
 
               <p className="text-gray-700 text-sm leading-relaxed mt-6">
-              群馬県桐生市在住。React・Next.js・Node.jsを中心としたモダンな技術スタックを得意としており、フロントエンドからバックエンド、API開発・データベースまで一貫して対応しています。
+              群馬県桐生市在住。これまで主にWebシステムやWebサービスの開発に携わってきまして、現在はフロントエンドを中心としたフルスタックエンジニアとして仕事をしています。
 ユーザーにとって使いやすいUI/UXと、将来的な保守・拡張を考慮した設計を大切にし、要件や目的に応じた技術選定から実装まで柔軟に対応しています。
-アイデアを形にすることを大切にし、品質とスピードの両立を意識したWeb開発に取り組んでいます。
+アイデアを形にすることを大切にし、品質とスピードの両立を意識したWeb開発に取り組んでいます
               </p>
 
               <div className="mt-4 text-sm text-gray-500 flex items-center gap-2">
