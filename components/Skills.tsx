@@ -10,11 +10,13 @@ const categories = [
     lightColor: "bg-sky-50",
     borderColor: "border-sky-200",
     skills: [
+      { name: "HTML5",        level: 99 },
       { name: "React",        level: 95 },
       { name: "Next.js",      level: 93 },
       { name: "TypeScript",   level: 92 },
       { name: "JavaScript",   level: 95 },
-      { name: "Tailwind CSS", level: 90 },
+      { name: "Tailwind CSS", level: 80 },
+      { name: "SCSS", level: 95 },
     ],
   },
   {
@@ -27,9 +29,9 @@ const categories = [
       { name: "Node.js",          level: 93 },
       { name: "NestJS",           level: 85 },
       { name: "Express",          level: 88 },
-      { name: "PHP Laravel",      level: 82 },
-      { name: "Java Spring Boot", level: 75 },
-      { name: "Python",           level: 72 },
+      { name: "PHP Laravel",      level: 90 },
+      { name: "Java Spring Boot", level: 97 },
+      { name: "Python",           level: 95 },
     ],
   },
   {
@@ -39,10 +41,23 @@ const categories = [
     lightColor: "bg-emerald-50",
     borderColor: "border-emerald-200",
     skills: [
-      { name: "MySQL",      level: 88 },
-      { name: "PostgreSQL", level: 85 },
-      { name: "MongoDB",    level: 82 },
+      { name: "MySQL",      level: 85 },
+      { name: "PostgreSQL", level: 95 },
+      { name: "MongoDB",    level: 83 },
       { name: "Redis",      level: 70 },
+    ],
+  },
+    {
+    title: "インフラストラクチャー",
+    icon: "☁️",
+    color: "from-orange-500 to-amber-400",
+    lightColor: "bg-orange-70",
+    borderColor: "border-orange-200",
+    skills: [
+      { name: "AWS", level: 90 },
+      { name: "Docker",                   level: 85 },
+      { name: "Vercel / Netlify",         level: 92 },
+      { name: "GitHub",  level: 95 },
     ],
   },
   {
@@ -52,12 +67,31 @@ const categories = [
     lightColor: "bg-orange-50",
     borderColor: "border-orange-200",
     skills: [
-      { name: "AWS（EC2 / S3 / Lambda）", level: 85 },
-      { name: "Docker",                   level: 83 },
-      { name: "Vercel / Netlify",         level: 92 },
-      { name: "CI/CD（GitHub Actions）",  level: 83 },
+      { name: "AWS（EC2 / S3 / Lambda）", level: 90 },
+      { name: "Sass / SCSS",                   level: 90 },
+      { name: "CI/CD（GitHub Actions)",         level: 80 },
+      { name: "REST API設計",  level: 85 },
+      { name: "UI/UX設計",  level: 95 },
     ],
   },
+
+    {
+    title: "デザイン",
+    icon: "☁️",
+    color: "from-orange-500 to-amber-400",
+    lightColor: "bg-orange-30",
+    borderColor: "border-orange-200",
+    skills: [
+      { name: "Figma", level: 90 },
+      { name: "Canva", level: 95 },
+      { name: "Adobe Photoshop", level: 99 },
+      { name: "Adobe XD",  level: 90 },
+      { name: "Wordpress",  level: 95 },
+      { name: "jQuery",  level: 83 },
+      { name: "Bootstrap",  level: 80 },
+    ],
+  },
+  
 ];
 
 const techStack = [
