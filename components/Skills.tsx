@@ -62,10 +62,11 @@ const categories = [
 
 const techStack = [
   { name: "React",         logo: "⚛",  color: "text-cyan-600   bg-cyan-50   border-cyan-200" },
+  { name: "HTML5",         logo: "❄️",  color: "text-cyan-600   bg-cyan-50   border-cyan-200" },
   { name: "Next.js",       logo: "▲",  color: "text-gray-700   bg-gray-50   border-gray-300" },
   { name: "TypeScript",    logo: "TS", color: "text-blue-600   bg-blue-50   border-blue-200" },
   { name: "JavaScript",    logo: "JS", color: "text-yellow-600 bg-yellow-50 border-yellow-200" },
-  { name: "Tailwind CSS",  logo: "~",  color: "text-teal-600   bg-teal-50   border-teal-200" },
+  { name: "Liquid+ShopifyAPI",  logo: "~",  color: "text-teal-600   bg-teal-50   border-teal-200" },
   { name: "Node.js",       logo: "⬡",  color: "text-green-600  bg-green-50  border-green-200" },
   { name: "NestJS",        logo: "🦁", color: "text-red-600    bg-red-50    border-red-200" },
   { name: "Express",       logo: "⚡", color: "text-gray-600   bg-gray-50   border-gray-200" },
@@ -79,9 +80,13 @@ const techStack = [
   { name: "AWS",           logo: "☁",  color: "text-orange-600 bg-orange-50 border-orange-200" },
   { name: "Docker",        logo: "🐳", color: "text-sky-600    bg-sky-50    border-sky-200" },
   { name: "Vercel",        logo: "▲",  color: "text-gray-700   bg-gray-50   border-gray-300" },
-  { name: "GitHub Actions",logo: "⎇",  color: "text-gray-600   bg-gray-50   border-gray-200" },
+  { name: "GitHub",logo: "⎇",  color: "text-gray-600   bg-gray-50   border-gray-200" },
   { name: "Figma",         logo: "✦",  color: "text-purple-600 bg-purple-50 border-purple-200" },
+  { name: "Canva",         logo: "🌸",  color: "text-purple-600 bg-purple-50 border-purple-200" },
   { name: "WordPress",     logo: "W",  color: "text-blue-600   bg-blue-50   border-blue-200" },
+  { name: "Adobe Photoshop",     logo: "👑",  color: "text-blue-600   bg-blue-50   border-blue-200" },
+  { name: "Sketch",     logo: "⛈️",  color: "text-blue-600   bg-blue-50   border-blue-200" },
+  { name: "Adobe XD",     logo: "🌹",  color: "text-blue-600   bg-blue-50   border-blue-200" },
   { name: "Sass/SCSS",     logo: "💅", color: "text-pink-600   bg-pink-50   border-pink-200" },
 ];
 
