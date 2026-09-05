@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 const categories = [
   {
     title: "フロントエンド",
-    icon: "🖥",
+    icon: "💚",
     color: "from-sky-500 to-cyan-400",
     lightColor: "bg-sky-50",
     borderColor: "border-sky-200",
@@ -21,7 +21,7 @@ const categories = [
   },
   {
     title: "バックエンド",
-    icon: "⚙️",
+    icon: "❤️",
     color: "from-indigo-500 to-purple-400",
     lightColor: "bg-indigo-50",
     borderColor: "border-indigo-200",
@@ -36,7 +36,7 @@ const categories = [
   },
   {
     title: "データベース",
-    icon: "🗄",
+    icon: "💍",
     color: "from-emerald-500 to-teal-400",
     lightColor: "bg-emerald-50",
     borderColor: "border-emerald-200",
@@ -49,7 +49,7 @@ const categories = [
   },
     {
     title: "インフラストラクチャー",
-    icon: "☁️",
+    icon: "❄️",
     color: "from-orange-500 to-amber-400",
     lightColor: "bg-orange-70",
     borderColor: "border-orange-200",
@@ -62,7 +62,7 @@ const categories = [
   },
   {
     title: "インフラ / クラウド",
-    icon: "☁️",
+    icon: "📌",
     color: "from-orange-500 to-amber-400",
     lightColor: "bg-orange-50",
     borderColor: "border-orange-200",
@@ -77,7 +77,7 @@ const categories = [
 
     {
     title: "デザイン",
-    icon: "☁️",
+    icon: "🌸",
     color: "from-orange-500 to-amber-400",
     lightColor: "bg-orange-30",
     borderColor: "border-orange-200",
